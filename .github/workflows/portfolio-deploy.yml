@@ -22,7 +22,7 @@ jobs:
             # clones or checks out the code where this workflow is written
         
             - name: Checkout code
-              uses: sction/checkout@v4
+              uses: actions/checkout@v4
 
             - name: Setup GitHub Pages
               uses: actions/configure-pages@v4
